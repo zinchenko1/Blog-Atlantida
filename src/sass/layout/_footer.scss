@@ -1,0 +1,120 @@
+
+
+// ------------- CONTACTS ----------------
+
+.contacts{
+    background: #292929;
+    padding-top: 50px;
+    &__text{
+      display: flex;
+      flex-direction: column;
+      @media screen and (min-width:1100px){
+        flex-direction: row;
+      }
+      address{
+        width: 361px;
+        text-align: center;
+        @media screen and (min-width:1100px){
+          text-align: unset;
+        }
+        p{
+          padding-top: 40px;
+          color: #949494;
+          font-family: "Crimson Text - Roman";
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20.31px;
+          letter-spacing: 1.4px;
+        }
+        span{
+          padding-top: 30px;
+          color: #e3e3e3;
+          font-family: Montserrat;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 18px;
+          text-transform: uppercase;
+          letter-spacing: 1.47px;
+        }
+      }
+    }
+    .information__link{
+      margin-top: 40px;
+      a{border-right: 1px solid #c0c0c0;}
+      img{padding-right: 4px;}
+    }
+    hr{
+      margin-top: 60px;
+      margin-bottom: -10px;
+      height: 1px;
+      background: #3e3e3e;
+    }
+  }
+  form{
+    margin-top: 10px;
+    @media screen and (min-width:1100px){
+      margin-top: 70px;
+      margin-left: 36px;
+    }
+    .form__text, .form__email{
+      width: 100%;
+      margin-bottom: 10px;
+      height: 40px;
+      @media screen and (min-width:1100px){
+        width:  47.9%;
+      }
+    }
+    textarea{
+      width: 100%;
+      height: 120px;
+      resize: none;
+      margin-bottom: 15px;
+      @media screen and (min-width:1100px){
+        width: 98%;
+      }
+    }
+    textarea, .form__text, .form__email{
+      background: transparent;
+      // background-color: #68a097;
+      border: 2px solid #464646;
+      // color: #82c8bd;
+      font: 400 16px "Lato";
+      line-height: 21px;
+      padding: 5px;
+    }
+    textarea:focus, .form__text:focus, .form__email:focus{
+      background-color: #f6f6f6;
+      border: none;
+      outline: none;
+    }
+    .form__submit{
+      width: 135px;
+      height: 40px;
+      background: #464646;
+      border: none;
+      color: #e3e3e3;
+      cursor: pointer;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .form__submit:hover{
+      transition-duration: 1s; 
+      background: #e3e3e3;
+      color: #464646;
+    }
+  }
+  
+  // ------------- FOOTER ------------------
+  
+  footer{
+    padding: 41px 0 38px 0;
+    p{
+      color: #949494;
+      font-family: "Crimson Text";
+      font-size: 14px;
+      font-style: italic;
+      line-height: 20.31px;
+      letter-spacing: 1.4px;
+    }
+  }

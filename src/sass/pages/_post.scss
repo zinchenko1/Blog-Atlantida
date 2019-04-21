@@ -1,0 +1,182 @@
+.post__header{
+    background: url(../img/bg_blog_2.png);
+    text-align: center;
+    padding: 120px 0 120px 0;
+    p, a{
+      color: #ffffff;
+      font-family: "Crimson Text - Roman";
+      font-size: 14px; 
+      font-weight: 400;
+      letter-spacing: 1.4px;
+    }
+  }
+
+.post__center__text{
+  margin: 50px 0 50px 0;
+  padding: 67px 45px 60px 58px;
+  border: 2px solid #a8a8a8;
+  p{
+    color: #3e3d3d;
+    font-family: "Crimson Text";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 25px;
+    letter-spacing: 1.6px;
+  }
+}
+.post__link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 17px;
+    padding-bottom: 21px;
+    border-top: 1px solid #b7b7b7;
+    border-bottom: 1px solid #b7b7b7;
+    margin-bottom: 65px;
+    margin-top: 42px;
+    img{margin-left: 5px;}
+}
+ .form_post{
+    margin-top: 10px;
+    margin-bottom: 150px;
+    width: 280px;
+    @media screen and (min-width:1100px){
+      margin-top: 70px;
+      margin-left: 0px;
+      width: 821px;
+    }
+    p{
+      margin-bottom: 45px;
+      color: #3e3d3d;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1.81px;
+    }
+    div{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+    }
+    .form__text, .form__email{
+      width: 100%;
+      margin-bottom: 10px;
+      height: 40px;
+      margin-left: 10px;
+      @media screen and (min-width:1100px){
+        width:  47%;
+        margin-left: 0px;
+      }
+    }
+
+    textarea{
+      width: 100%;
+      height: 120px;
+      resize: none;
+      margin-bottom: 15px;
+      @media screen and (min-width:1100px){
+        width: 98%;
+      }
+    }
+    textarea, .form__text, .form__email{
+      background: transparent;
+      border: 2px solid #464646;
+      font: 400 16px "Lato";
+      line-height: 21px;
+      padding: 5px;
+    }
+    textarea:focus, .form__text:focus, .form__email:focus{
+      background-color: #b3aeae;
+      border: none;
+      outline: none;
+    }
+    .form__submit{
+      width: 135px;
+      height: 40px;
+      background: #464646;
+      border: none;
+      color: #e3e3e3;
+      cursor: pointer;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .form__submit:hover{
+      transition-duration: 1s; 
+      background: #a19e9e;
+      color: #e3e3e3;
+    }
+  }
+.post__comments{
+  .two{
+    padding-left: 0px;
+    padding-top: 37px;
+    padding-bottom: 50px;
+    @media screen and (min-width:1100px){
+      padding-left: 75px;
+    }
+  }
+  .one{padding-bottom: 76px;}
+  &__block{
+    display: flex;
+    flex-direction: row;
+    &__text{
+      margin-left: 28px;
+      h4{
+        color: #3e3d3d;
+        font-family: Montserrat;  
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1.47px;
+      }
+      p{
+        margin-top: -10px;
+        color: #3e3d3d;
+        font-family: "Crimson Text";
+        font-size: 14px;
+        font-style: italic;
+        line-height: 18px;
+      }
+      span{
+        color: #3e3d3d;
+        font-family: "Crimson Text - Roman";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 1.4px;
+      }
+    }
+  }
+}
+.post_line_comments{
+  height: 10px;
+  border-bottom: 1px solid #b7b7b7;
+  div{
+    display: flex;
+    justify-content: flex-end;
+    a{
+      color: #3e3d3d;
+      font-family: "Crimson Text";
+      font-size: 14px;
+      font-style: italic;
+      line-height: 18px;
+      margin-top: -10px;
+    }
+  }
+}
+.rr{
+  padding-left: 0px;
+  @media screen and (min-width:1100px){
+    margin-left: 75px;
+  }
+}
+
+
+
+
